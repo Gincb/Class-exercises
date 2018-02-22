@@ -1,0 +1,90 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title {
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    background: rgb(141, 141, 235);
+}
+
+.meniu {
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    list-style-type: none;
+    background: rgb(141, 141, 235);
+}
+
+.list {
+    padding: 5px 15px;
+    margin: auto;
+    height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+}
+
+.list:hover {
+    opacity: 0.5;
+}
+
+.wrap {
+    width: 80%;
+    height: 50px;
+}
+
+.subscribe {
+    margin: 1px;
+}
+
+.sub {
+    margin: 5px;
+    padding: 5px;
+    width: 41.66%;
+    border: none;
+    display: inline-block;
+}
+
+.button {
+    padding: 6px 30px;
+    margin: 0;
+    width: 33.33%;
+    height: 30px;
+    border: 2px solid rgb(141, 141, 235);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background: rgb(141, 141, 235);
+    display: inline-block;
+}
+
+.button:hover {
+    color: rgb(141, 141, 235);
+    background: white;
+}
+
+.button-no {
+    padding: 6px 30px;
+    width: 16.66%;
+    margin: 0;
+    height: 30px;
+    border: 2px solid rgb(174, 174, 175);
+    border-radius: 5px;
+    color: white;
+    background: rgb(174, 174, 175);
+    display: inline-block;
+}
+
+.button-no:hover {
+    color: rgb(174, 174, 175);
+    background: white;
+}
