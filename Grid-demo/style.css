@@ -1,0 +1,120 @@
+.page-wrapper {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255, 230, 230);
+}
+
+.page {
+    display: grid;
+    grid-template-rows: auto 15% 15% 15% 15%;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-areas: ". header header header header header header header header ." ". calendar calendar . . symbol symbol eye eye ." ". calendar calendar clock clock symbol symbol a . ." ". coffee coffee h h cubic cubic search search ." ". coffee coffee h h cubic cubic search search ."
+}
+
+.page-header {
+    grid-area: header;
+    background: lightblue;
+}
+
+.page-calendar {
+    grid-area: calendar;
+    background: lightcoral;
+}
+
+.page-clock {
+    grid-area: clock;
+    background: lightcyan;
+}
+
+.page-symbol {
+    grid-area: symbol;
+    background: lightgoldenrodyellow;
+}
+
+.page-eye {
+    grid-area: eye;
+    background: lightgray;
+}
+
+.page-a {
+    grid-area: a;
+    background: lightgreen;
+}
+
+.page-coffee {
+    grid-area: coffee;
+    background: lightpink;
+}
+
+.page-h {
+    grid-area: h;
+    background: lightsalmon;
+}
+
+.page-cubic {
+    grid-area: cubic;
+    background: lightseagreen;
+}
+
+.page-search {
+    grid-area: search;
+    background: lightskyblue;
+}
+
+.page-calendar__style {
+    color: white;
+}
+
+.page-clock__style {
+    color: lightpink;
+}
+
+.page-symbol__style {
+    color: lightsalmon;
+}
+
+.page-eye__style {
+    color: lightseagreen;
+}
+
+.page-a__style {
+    color: lightpink;
+}
+
+.page-coffee__style {
+    color: lightblue;
+}
+
+.page-h__style {
+    color: lightgrey;
+}
+
+.page-cubic__style {
+    color: lightcyan;
+}
+
+.page-search__style {
+    color: lightsalmon;
+}
+
+.big-icon {
+    padding: 18px 5px;
+    font-size: 170px;
+    text-align: center;
+}
+
+.small-icon {
+    padding: 13px;
+    font-size: 90px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .page {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 300px auto auto auto auto auto auto auto auto auto;
+        grid-template-areas: "header" "calendar" "clock" "symbol" "eye" "a" "coffee" "h" "cubic" "search";
+    }
+}
