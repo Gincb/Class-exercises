@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&amp;subset=greek" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <div class="header-wrapper header-wrapper__background">
+        <header class="header">
+            <h1>Owl Carousel 2 Plug-in</h1>
+        </header>
+    </div>
+    <div class="owl-carousel owl-theme owl-wrapper">
+        <div class="item">
+            <img src="http://78.media.tumblr.com/aa7139796f4c83c1bfe25cd3f98cb5d9/tumblr_ohpyvk8F881v8t5gwo2_r2_500.png" alt="girl">
+            <span>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you.<i class="fa fa-quote-right" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div class="item">
+            <img src="http://78.media.tumblr.com/0509332329ba523c7161c6c9745f0d84/tumblr_oboxyvjyiY1v8t5gwo1_r2_1280.png" alt="hands">
+            <span>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>I cry at random things, like a flower, or someone giving me a present, or my sister giving me a nice hug.<i class="fa fa-quote-right" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div class="item">
+            <img src="http://78.media.tumblr.com/a5c54780c37419e839ceacb9d5f8f073/tumblr_ohpyvk8F881v8t5gwo1_r3_500.png" alt="feet">
+            <span>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>The truth is that killing innocent people is always wrong - and no argument or excuse, no matter how deeply believed, can ever make it right. No religion on earth condones the killing of innocent people; no faith tradition tolerates the random killing of our brothers and sisters on this earth.<i class="fa fa-quote-right" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div class="item">
+            <img src="http://78.media.tumblr.com/98c7e28b4f5af125c5be8bc3537f6846/tumblr_oboxyvjyiY1v8t5gwo2_r2_1280.png" alt="mountains">
+            <span>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>Everything happening around me is very random. I am enjoying the phase, as the journey is far more enjoyable than the destination.<i class="fa fa-quote-right" aria-hidden="true"></i>
+            </span>
+        </div>
+    </div>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+
+        })
+    </script>
+</body>
+
+</html>
