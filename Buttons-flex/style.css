@@ -1,0 +1,133 @@
+.wrapper {
+    margin: 0;
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    margin: 25px 50px;
+    padding: 10px 5px 5px 5px;
+    width: 300px;
+    height: 80px;
+}
+
+.button__blue-white:hover .white-button__icons {
+    background: white;
+    color: #caebf2;
+}
+
+.button__gray-white:hover .white-button__icons {
+    background: white;
+    color: #a9a9a9
+}
+
+.button__red-white:hover .white-button__icons {
+    background: white;
+    color: #ff3b3f
+}
+
+.button__blue,
+.button__blue-white:hover {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: #caebf2;
+}
+
+.button__gray,
+.button__gray-white:hover {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: #a9a9a9;
+}
+
+.button__red,
+.button__red-white:hover {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: #ff3b3f;
+}
+
+.button__blue-white,
+.button__blue:hover {
+    border-radius: 5px;
+    border: 2px solid #caebf2;
+    background: white;
+}
+
+.button__gray-white,
+.button__gray:hover {
+    border-radius: 5px;
+    border: 2px solid #a9a9a9;
+    background: white;
+}
+
+.button__red-white,
+.button__red:hover {
+    border-radius: 5px;
+    border: 2px solid #ff3b3f;
+    background: white;
+}
+
+.button__icon {
+    padding: 5px;
+    float: left;
+    height: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+.button__icon-style {
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button__icon-style .fa {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.solid-button__icons {
+    background: white;
+}
+
+.blue__icon {
+    color: #caebf2;
+}
+
+.gray__icon {
+    color: #a9a9a9;
+}
+
+.red__icon {
+    color: #ff3b3f;
+}
+
+.blue-white__icon,
+.button__blue:hover .blue__icon {
+    color: white;
+    background: #caebf2;
+}
+
+.gray-white__icon,
+.button__gray:hover .gray__icon {
+    color: white;
+    background: #a9a9a9;
+}
+
+.red-white__icon,
+.button__red:hover .red__icon {
+    color: white;
+    background: #ff3b3f;
+}
+
+.button__description {
+    margin: 1px;
+    padding: 1px;
+    width: 80%;
+}
